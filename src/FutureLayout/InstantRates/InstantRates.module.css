@@ -1,0 +1,96 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.searchedResult {
+  width: 100%;
+  height: 150px;
+  background-color: gray;
+}
+
+.headerLabel {
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.headerLabel div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerLabel div span:first-child {
+  font-size: 13px;
+  color: #afafaf;
+}
+
+.headerLabel div span:last-child {
+  font-size: 13px;
+  color: #333;
+}
+
+.DatapointLabel > div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.DatapointLabel > div > span {
+  color: #afafaf;
+  font-size: 13px;
+}
+
+.Cards {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-height: 60vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 20px 0;
+}
+
+.totalCost {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #333;
+}
+
+.resultHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.resultHeader > span:first-child {
+  color: #afafaf;
+}
+
+.resultHeader > div {
+  display: flex;
+  align-items: center;
+}
+
+.resultHeader > div {
+  font-size: 20px;
+}
+
+.cardIcon {
+  background-color: blue;
+  font-size: 24px;
+  padding: 0;
+  color: #fff;
+}
+
+.tableIcon {
+  font-size: 20px;
+  background-color: blue;
+}

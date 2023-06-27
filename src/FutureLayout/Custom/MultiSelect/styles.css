@@ -1,0 +1,33 @@
+.p-multiselect {
+  width: fit-content !important;
+  height: 36px;
+}
+
+.p-multiselect-label-container {
+  max-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-multiselect.p-multiselect-chip .p-multiselect-token {
+  padding: 5px;
+  margin-right: 0;
+  border-radius: 15px;
+}
+
+.p-multiselect .p-multiselect-label.p-placeholder {
+  font-size: 11px;
+}
+
+.p-multiselect-panel
+  .p-multiselect-items
+  .p-multiselect-item
+  > span
+  > div
+  > div {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

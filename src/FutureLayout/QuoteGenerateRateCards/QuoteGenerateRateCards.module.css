@@ -1,0 +1,326 @@
+.card {
+  position: relative;
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 160px;
+  border-radius: 4px;
+  -webkit-box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+  -moz-box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+  box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+}
+
+.card .left {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid lightblue;
+}
+
+.card .left span:first-child {
+  text-align: center;
+  padding-top: 10px;
+  max-width: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.card .left span:last-child {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.card .left img {
+  max-height: 50px;
+  max-width: 100%;
+  vertical-align: top;
+  border: none;
+}
+
+.card .center {
+  flex: 10;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.card .center .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid lightblue;
+}
+
+.card .center .top img {
+  width: 400px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.card .center .bottom {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+
+.card .center .bottom .channelDetails {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card .center .bottom .channelDetails > span:first-child {
+  color: #afafaf;
+  font-size: 11px;
+}
+
+.card .center .bottom .channelDetails > span:last-child {
+  color: #333;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.card .right {
+  flex: 3;
+  display: flex;
+  border-left: 1px solid lightblue;
+}
+
+.card .right .top {
+  flex: 3;
+  font-size: 15px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid lightblue;
+  overflow: hidden;
+}
+
+.card .right .top .topLeft,
+.topRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.card .right .top .topLeft span,
+.topRight span {
+  font-size: 12px;
+  color: rgb(146, 140, 140);
+}
+
+.card .right .top .topLeft span:last-child,
+.topRight span:last-child {
+  font-weight: 500;
+  font-size: 14px;
+  color: black;
+}
+
+.card .right .center {
+  flex: 4;
+  text-align: center;
+  border-right: 1px solid lightblue;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.viewDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.viewDetails button {
+  color: white;
+  padding: 10px 14px;
+  font-weight: 600;
+  background-color: blue;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+
+.quoteSummaryActions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.quoteSummaryActions button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  outline: none;
+  height: 36px;
+  font-size: 11px;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: none;
+}
+
+.quoteSummaryActions button:nth-child(1) {
+  color: #ff0000;
+  border: 1px solid #ff0000;
+  background: transparent;
+}
+
+.quoteSummaryActions button:nth-child(2) {
+  color: #8483cb;
+  border: 1px solid #8483cb;
+  background: transparent;
+}
+
+.quoteSummaryActions button:nth-child(3) {
+  color: #fff;
+  background-color: #4e49d8;
+}
+
+.quoteSummaryActions button:first-child:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+.deleteIcon {
+  color: #ff0000;
+}
+
+.confirmationPopup {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmationPopup > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.fileDelete {
+  font-size: 21px;
+  font-weight: 600;
+  color: white;
+}
+
+.confirm,
+.cancel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  font-size: 11px;
+  font-weight: 600;
+  border: 1px solid #8c88d2;
+  cursor: pointer;
+  border-radius: 4px;
+  line-height: 20px;
+  height: 36px;
+}
+
+.cancel {
+  color: #fff;
+  background-color: #4e4ad8;
+  border: none;
+}
+
+.confirm {
+  color: #8c88d2;
+  background-color: white;
+}
+
+.confirm:hover {
+  color: white;
+  background-color: #8c88d2;
+}
+
+.icon {
+  border-radius: 4px;
+  font-size: 20px;
+  color: #3834d2;
+}
+
+.quoteSummaryActions > span {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #3834d2;
+}
+
+.quotesAction {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 250px;
+}
+
+.deleteBtn,
+.editBtn,
+.bookNow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  font-size: 11px;
+  padding: 8px 16px;
+  border: 1px solid #4b4bd6;
+  background-color: #4b4bd6;
+  color: white;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  line-height: 20px;
+}
+
+.deleteBtn {
+  color: #f60000;
+  background-color: transparent;
+  border: 1px solid #f60000;
+}
+
+.deleteBtn:hover {
+  color: #fff;
+  background-color: #f60000;
+}
+.editBtn {
+  background-color: #fff;
+  color: #4b4bd6;
+}
+
+.editBtn:hover {
+  background-color: #4b4bd6;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+}
+
+.logo img {
+  width: 100%;
+  object-fit: contain;
+}

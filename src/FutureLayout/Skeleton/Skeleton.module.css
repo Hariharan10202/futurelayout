@@ -1,0 +1,20 @@
+.skeletonContainer {
+  position: relative;
+  width: 400px;
+  height: 100px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.37);
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.37);
+}
+
+.skeletonContainer div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow: hidden;
+}

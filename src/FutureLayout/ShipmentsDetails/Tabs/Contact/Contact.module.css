@@ -1,0 +1,123 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.source,
+.management,
+.agentDetails {
+  width: calc(100% / 3);
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.31);
+}
+
+.sourceHeader,
+.agentsHeader {
+  padding: 20px;
+  border-bottom: 1px solid #afafaf;
+}
+
+.sourceHeader > span,
+.agentsHeader > span {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.sourceHeader > div:last-child {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.sourceContent {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sourceContent > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.sourceContent > div > span:first-child {
+  color: #333;
+  font-weight: 600;
+}
+
+.sourceContent > div > span:last-child {
+  color: #afafaf;
+  font-weight: 600;
+}
+
+.managementHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #afafaf;
+}
+
+.managementHeader > span:first-child {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.editIcon {
+  font-size: 20px;
+}
+
+.managementContent {
+  padding: 20px;
+}
+
+.managementContent {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.managementContent > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.managementContent > div > span:first-child {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.managementContent > div > span:last-child {
+  color: #afafaf;
+  font-weight: 13;
+}
+
+.agentsContent {
+  display: flex;
+  align-items: center;
+  row-gap: 20px;
+  column-gap: 50px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.agentsContent > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.agentsContent > div > span:first-child {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.agentsContent > div > span:last-child {
+  color: #afafaf;
+}

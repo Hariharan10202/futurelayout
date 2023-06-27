@@ -1,0 +1,90 @@
+.inputFieldContainer {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.inputFieldContainer .inputField {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.tabbedNav {
+  padding: 20px;
+}
+
+.lowerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.footerSection .buyRate,
+.sellRate {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 20px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.footerSection .buyRate span,
+.sellRate span {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.marginAction {
+  flex: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.marginAction .graphLine {
+  color: #3bb03d;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.margin {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.marginAction span:first-child {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.link {
+  font-weight: 600;
+  font-size: 13px;
+  color: #207dc9;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.marginAction span:last-child:hover {
+  transform: scale(104%);
+}
+
+.margin .arrow {
+  font-size: 13px;
+}

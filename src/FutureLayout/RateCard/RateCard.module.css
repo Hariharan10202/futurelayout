@@ -1,0 +1,70 @@
+.container {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.carrierLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 36px;
+}
+
+.carrierLogo img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.card {
+  border: 1px solid #fff;
+}
+
+.activeCard {
+  border: 1px solid #42a5f5;
+  border-radius: 4px;
+}
+
+.amount {
+  font-weight: 1000;
+  font-size: 11px;
+}
+
+.sd,
+.commodity {
+  font-size: 11px;
+}
+
+.linerName {
+  max-width: 120px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.linerName > span {
+  font-weight: 600;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.dataPoints {
+  display: flex;
+  flex-direction: column;
+}
+
+.dataPoints > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}

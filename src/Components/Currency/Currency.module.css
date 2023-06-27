@@ -1,0 +1,51 @@
+.container {
+  padding: 20px 20px 20px 0;
+}
+
+.currencyHeader {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.currencyHeader span {
+  font-size: 20px;
+}
+
+.currencyHeader p {
+  width: 80%;
+}
+
+.currencyHeader > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.currencyButton div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+}
+
+.currencyButton button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #42a5f5;
+  outline: none;
+  padding: 8px 16px;
+  font-size: 13px;
+  gap: 10px;
+  color: #42a5f5;
+  background-color: white;
+  border-radius: 4px;
+  height: 36px;
+}
+
+.currencyButton button:hover {
+  background-color: #42a5f5;
+  color: white;
+  cursor: pointer;
+}

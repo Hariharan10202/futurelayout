@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+}
+
+.inputContainer {
+  width: 285px;
+  height: 36px;
+  border-radius: 4px;
+  border: 1px solid #42a5f5;
+  padding: 10px 8px;
+}
+
+.extraWidth {
+  height: 51px;
+  padding: 5px 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 269px;
+  height: 36px;
+}
+
+.content span {
+  font-size: 11px;
+  font-weight: 600;
+  color: #000;
+}
+
+.inputContainer input {
+  border: none;
+  outline: none;
+  height: 16px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.inputContainer input::placeholder {
+  font-style: italic;
+  color: #afafaf;
+}
+
+.inputContainer:hover input::placeholder {
+  color: #333333;
+}
+
+.dropDownContainer {
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 3px 8px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 3px 8px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 8px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.dataContainer {
+  width: 285px;
+  height: 200px;
+  overflow: scroll;
+}
+
+.hide {
+  opacity: 0;
+  transform: translateY(-10px);
+  pointer-events: none;
+  transition: 0.2s ease-in-out;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+  transition: 0.2s ease-in-out;
+}
+
+li span {
+  pointer-events: none;
+}
+
+.dropDownContainer li {
+  scrollbar-width: thin;
+  width: 283px;
+  height: 51px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 0 10px 8px;
+  background-color: white;
+}
+
+.dropDownContainer li:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.dropDownContainer li span:last-child {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.btn {
+  position: fixed;
+  bottom: -25px;
+  width: 285px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: none;
+  outline: none;
+  background-color: #49adf5;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 4px;
+}

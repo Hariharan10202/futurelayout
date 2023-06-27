@@ -1,0 +1,317 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 100%;
+  max-height: 100vh;
+  overflow-y: scroll;
+  padding: 20px;
+  padding-left: 70px;
+}
+
+.detailsContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.backArrow {
+  font-size: 30px;
+}
+
+.header > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.header > div > div > span:first-child > span {
+  color: #333;
+}
+
+.header > div > div > span:first-child {
+  font-size: 13px;
+  color: #42a5f5;
+}
+
+.header > div > div > span:last-child {
+  font-size: 23px;
+}
+
+.Containerheader {
+  padding: 20px;
+  border-bottom: 1px solid #afafaf;
+}
+
+.Containerheader > span {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.bookingContainer {
+  /* width: 100%; */
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  gap: 20px;
+}
+
+.bookingDetails {
+  /* width: 100%; */
+  background-color: white;
+  border-radius: 4px;
+}
+
+.dataPoints {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 20px;
+}
+
+.inputFieldContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.inputFields {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.inputFieldIcon {
+  color: #333;
+  font-size: 20px;
+}
+
+.inputField span {
+  line-height: 20px;
+}
+
+.carrierLogo {
+  width: 100px;
+  max-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrierLogo img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.inputField-s > span:first-child {
+  font-size: 11px;
+  color: #afafaf;
+}
+
+.inputField-s > span:last-child {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/*  */
+
+.partiesDetails {
+  border-radius: 4px;
+  background-color: white;
+}
+
+.partiedHeader {
+  padding: 20px;
+  border-bottom: 1px solid #afafaf;
+}
+
+.partiedHeader > span {
+  font-weight: 600;
+  font-size: 13px;
+}
+.partiesTable {
+  padding: 20px;
+}
+
+.detailsTableBody {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.detailsTableBody > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.partiesAction {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.partiesAction span {
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #42a5f5;
+}
+
+/*  */
+
+.rateSummary {
+  position: sticky;
+  top: 0;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.rateSummaryHeader {
+  padding: 20px;
+  border-bottom: 1px solid #afafaf;
+}
+
+.rateSummaryHeader > span {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.rateSummaryDatapoints {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.rateSummaryDatapoints > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.rateSummaryDatapoints > div > span:last-child {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.hyper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.hyper,
+.hyperIcon {
+  font-size: 20px;
+  color: #42a5f5;
+  cursor: pointer;
+}
+
+.conveniceFee {
+  padding: 20px;
+  border-top: 1px solid #afafaf;
+  border-bottom: 1px solid #afafaf;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.conveniceFee > span:last-child {
+  color: #f5483b;
+  font-weight: 600;
+}
+
+.upperLayout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lowerLayout {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.totalCharges > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5px;
+}
+
+.totalCharges > div > span:first-child {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.totalCharges > div > span:last-child {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Cancellation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.Cancellation > span:last-child {
+  color: #42a5f5;
+  font-weight: 600;
+}
+
+.live-booking {
+  margin: 20px 0;
+
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #eeeeee;
+  border-radius: 4px;
+}
+
+.live-booking > div:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.live-booking > div:last-child > span {
+  color: #aaabad;
+}
+
+.reloadIcon {
+  color: #aaabad;
+  font-size: 20px;
+}
+
+.reqBtn {
+  width: 100%;
+}

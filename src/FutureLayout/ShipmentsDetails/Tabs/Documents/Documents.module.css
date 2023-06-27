@@ -1,0 +1,78 @@
+.container {
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.31);
+  border-radius: 4px;
+}
+
+.documentsHeader {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  border-bottom: 1px solid #afafaf;
+}
+
+.documentsHeader > span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.documentBody > div {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+  padding: 20px;
+}
+
+.documentBody > div > div {
+  flex: 1;
+}
+
+.documentIUpload {
+  border: 1px dotted #afafaf;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 30px;
+}
+
+.documentIUpload > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.documentIUpload > div > span:last-child {
+  color: #afafaf;
+  font-size: 13px;
+}
+
+.InputField {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.InputField > div,
+.Comments > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.InputField > div > span:first-child,
+.Comments > div > span:first-child {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.documentsActions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-end;
+}

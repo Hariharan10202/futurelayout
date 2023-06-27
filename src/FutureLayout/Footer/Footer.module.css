@@ -1,0 +1,66 @@
+.counter {
+  position: absolute;
+  bottom: 0;
+  background-color: #535353;
+  width: 80%;
+  padding: 20px;
+  left: 3%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  z-index: 101;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.left span:first-child {
+  background-color: #ffffff;
+  color: #6db8f7;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.left span:last-child {
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+}
+
+.right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.right span:first-child {
+  font-size: 14px;
+  color: white;
+  font-weight: 600px;
+}
+
+button {
+  height: 36px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox label {
+  font-size: 13px;
+  color: white;
+}

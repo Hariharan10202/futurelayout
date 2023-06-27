@@ -1,0 +1,12 @@
+.p-timeline-event-opposite {
+  flex: none;
+}
+
+.p-timeline-event {
+  min-height: 150px;
+}
+
+.p-timeline .p-timeline-event-marker {
+  width: 2rem;
+  height: 2rem;
+}

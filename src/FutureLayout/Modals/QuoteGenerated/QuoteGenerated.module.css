@@ -1,0 +1,71 @@
+.generated {
+  font-size: 50px;
+  color: #67ac5b;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.body,
+.footer {
+  padding: 20px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+  border-bottom: 1px solid #afafaf;
+}
+
+.body > span:nth-child(2) {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.body > span:nth-child(3) {
+  font-size: 13px;
+  font-weight: 660;
+}
+
+.body > span:last-child {
+  font-size: 11px;
+  color: #afafaf;
+}
+
+.quoteId {
+  font-size: 13px;
+  color: #42a5f5;
+  font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.progress {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.modalActions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.secbtn {
+  color: #4a50d0;
+  background-color: transparent;
+}
+
+.pdfprogressText {
+  font-weight: 600;
+  font-size: 13px;
+}

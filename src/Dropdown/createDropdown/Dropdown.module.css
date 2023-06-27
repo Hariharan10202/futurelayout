@@ -1,0 +1,49 @@
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  background-color: #333;
+  box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%),
+    0 1px 10px 0 rgb(0 0 0 / 12%);
+  opacity: 0;
+  transition: 0.2s ease-in;
+  transform: translateY(-10px);
+  pointer-events: none;
+  z-index: 100;
+}
+
+.container span {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 64px;
+  color: white;
+}
+
+.container span:hover {
+  color: #42a5f5;
+  cursor: pointer;
+}
+
+.subList {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.rightArrow {
+  font-size: 20px !important;
+}
+
+.subDropdown {
+  left: -95px;
+  top: 10px;
+}
+
+.showDropdown {
+  opacity: 1;
+  transform: translateY(0px);
+  pointer-events: all;
+}

@@ -1,0 +1,49 @@
+* {
+  font-size: 12px;
+}
+.card {
+  width: 87%;
+  margin: auto;
+  background-color: white;
+  -webkit-box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+  -moz-box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+  box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+}
+
+.equipment-type {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.equipment-type div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.linersLogo {
+  max-height: 50px;
+  max-width: 100%;
+  vertical-align: top;
+  border: none;
+}
+
+.cost {
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+}
+
+.totalCost {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.gp20,
+.gp40 {
+  width: 50px;
+  text-align: center;
+}

@@ -1,0 +1,123 @@
+.summaryHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.summaryHeader div:first-child span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.summaryHeader div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.summaryHeader div:last-child span:first-child {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.downloadBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.downloadIcon {
+  font-size: 20px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 10px;
+  width: 1600px;
+  margin: 20px auto;
+}
+
+.linerCards {
+  flex: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.quoteDetails {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  flex: 3;
+  height: auto;
+  -webkit-box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+  -moz-box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+  box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+}
+
+.header {
+  padding: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+
+.quoteDetails .header span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.quoteForm {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputField span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.inputField input {
+  width: 250px;
+}
+
+.switchField {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkboxField {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.checkboxField span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.generateQuoteBtn {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

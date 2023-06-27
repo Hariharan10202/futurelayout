@@ -1,0 +1,78 @@
+.container {
+  padding: 20px;
+  width: 1400px;
+}
+
+.dataPoints {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 350px;
+  flex-wrap: wrap;
+}
+
+.checkField {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.checkField > span:first-child {
+  /* font-weight: 600; */
+  font-size: 14px;
+}
+
+.checkField > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputField {
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputField input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #afafaf;
+  padding: 5px;
+  font-size: 13px;
+}
+
+.inputField input:focus,
+.inputField > textarea:focus {
+  border-bottom: 1px solid #42a5f5;
+}
+
+.inputField > textarea {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #afafaf;
+  resize: none;
+  padding: 5px;
+}
+
+.inputField span {
+  color: #858585;
+  font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer button {
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: #ff9f00;
+  color: #333;
+  padding: 8px 16px;
+  font-size: 14px;
+}

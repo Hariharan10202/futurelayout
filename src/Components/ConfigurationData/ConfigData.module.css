@@ -1,0 +1,66 @@
+.Wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.container {
+  /* border-right: 1px solid #afafaf; */
+  padding: 0;
+  min-width: 200px;
+  /* position: relative; */
+}
+
+.list {
+  /* max-width: 200px; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 52px;
+  gap: 20px;
+  border-bottom: 1px solid #afafaf;
+  padding: 10px;
+  border-right: 1px solid #afafaf;
+}
+
+.list:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.content {
+  font-size: 13px;
+  color: #333;
+}
+
+.footer {
+  width: 100%;
+  height: 56px;
+  border: 1px solid #333;
+}
+
+.footer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding: 8px 16px;
+  outline: none;
+  background-color: #4a50d0;
+  font-size: 13px;
+  border: none;
+  color: white;
+  gap: 10px;
+  border-radius: 4px;
+}
+
+.saveIcon {
+  font-size: 20px;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.activeTab {
+  background-color: #f1f1f1;
+}

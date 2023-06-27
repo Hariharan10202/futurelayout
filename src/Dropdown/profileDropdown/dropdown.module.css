@@ -1,0 +1,58 @@
+.container {
+  position: absolute;
+  right: 5px;
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  padding: 0 20px;
+  background-color: #333;
+  box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%),
+    0 1px 10px 0 rgb(0 0 0 / 12%);
+  opacity: 0;
+  transition: 0.2s ease-in;
+  transform: translateX(10px);
+  pointer-events: none;
+  z-index: 100;
+}
+
+.container span {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 64px;
+  color: white;
+}
+
+.container span:hover {
+  color: #42a5f5;
+  cursor: pointer;
+}
+
+.rightArrow {
+  font-size: 20px !important;
+}
+
+.showDropdown {
+  opacity: 1;
+  transform: translateX(0px);
+  pointer-events: all;
+}
+
+.subDropdown {
+  right: 140px;
+  top: 64px;
+}
+
+.width {
+  width: 120px;
+}
+
+.link {
+  color: inherit;
+  font-size: 13px;
+}
+
+.link:hover {
+  color: inherit;
+}

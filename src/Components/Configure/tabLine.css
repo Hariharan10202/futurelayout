@@ -1,0 +1,12 @@
+.MuiTouchRipple-root {
+  color: #42a5f5;
+}
+
+.MuiTabs-indicator {
+  font-weight: 600;
+  background-color: #42a5f5;
+}
+
+.MuiBox-root {
+  padding: 0 !important;
+}

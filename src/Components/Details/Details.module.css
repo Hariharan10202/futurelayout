@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+.details {
+  opacity: 0;
+  position: fixed;
+  top: 5%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  transform: scale(0);
+  font-family: Open sans;
+  width: 1350px;
+  height: 90vh;
+  margin: auto;
+  z-index: 10;
+  background-color: white;
+  -webkit-box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+  -moz-box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+  box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+  transition: 0.2s ease;
+}
+
+.opacity {
+  opacity: 1;
+  position: fixed;
+  top: 5%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  transform: scale(100%);
+  transition: 0.2s ease;
+  font-family: Open sans;
+  width: 1350px;
+  height: 90vh;
+  margin: auto;
+  z-index: 10;
+  background-color: white;
+  -webkit-box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+  -moz-box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+  box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+}
+
+.header {
+  padding: 20px;
+  border-bottom: 1.4px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.closeBtn {
+  font-size: 20px;
+}
+
+.header h2 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.liner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 1.4px solid #e0e0e0;
+}
+
+.linerLogo img {
+  max-height: 50px;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+  border: none;
+}
+
+.linerDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.linerDetails span:first-child {
+  color: #707070;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.types {
+  padding: 20px;
+  display: flex;
+  gap: 50px;
+  color: #000000;
+  border-bottom: 1.4px solid #e0e0e0;
+}
+
+.types div {
+  padding-bottom: 20px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.types .active {
+  color: #42a5f5;
+  border-bottom: 4px solid #42a5f5;
+}
+
+.types span {
+  font-weight: 600;
+  font-size: 17px;
+  padding: 0 30px;
+}
+
+.lowerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.footerSection {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+}
+
+.footerSection .buyRate,
+.sellRate {
+  flex: 2.2;
+  display: flex;
+  padding-right: 200px;
+  flex-direction: column;
+  gap: 10px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.footerSection .buyRate span,
+.sellRate span {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.marginAction {
+  flex: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.marginAction .graphLine {
+  color: #3bb03d;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.margin {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.marginAction span:first-child {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.marginAction span:last-child {
+  font-weight: 600;
+  font-size: 15px;
+  color: #207dc9;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.marginAction span:last-child:hover {
+  transform: scale(104%);
+}
+
+.margin .arrow {
+  font-size: 20px;
+}
+
+.actionBtn {
+  display: flex;
+  gap: 20px;
+}
+
+.actionBtn button:last-child {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}

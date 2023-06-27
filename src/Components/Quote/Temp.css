@@ -1,0 +1,8 @@
+.timelineMonitor .ant-timeline-item-head {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.timelineMonitor .ant-timeline-item-tail {
+  left: 14px !important;
+}

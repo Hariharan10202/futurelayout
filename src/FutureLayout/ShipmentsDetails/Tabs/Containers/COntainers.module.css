@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.31);
+}
+
+.containerHeader {
+  padding: 20px;
+  border-bottom: 1px solid #afafaf;
+}
+
+.containerHeader > span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.content {
+  padding: 20px;
+}
+
+.containerBody {
+  position: relative;
+  overflow-x: scroll;
+}
+
+.inputFields {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.inputFields > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.inputFields > div > span {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.containerCTA {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px;
+  padding-right: 0;
+  position: sticky;
+  left: 0;
+}

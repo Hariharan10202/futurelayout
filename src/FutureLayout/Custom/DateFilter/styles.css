@@ -1,0 +1,28 @@
+.p-datepicker table td.p-datepicker-today > span.p-highlight {
+  color: #fff;
+  background-color: #4338ca;
+}
+
+.p-datepicker table td > span.p-highlight {
+  color: #fff;
+  background-color: #4338ca;
+}
+.p-datepicker table td > span {
+  color: #333;
+  font-weight: 600;
+}
+
+.p-disabled,
+.p-disabled * {
+  color: #afafaf !important;
+  font-weight: 500 !important;
+}
+
+.p-calendar {
+  width: 140px;
+  height: 36px;
+}
+
+.p-calendar .p-inputtext {
+  font-size: 11px;
+}

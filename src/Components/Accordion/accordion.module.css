@@ -1,0 +1,125 @@
+.container {
+  margin-bottom: 20px;
+}
+
+.Accordiontext {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Accordiontext {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.subtext {
+  font-size: 11px;
+  color: #9e9e9e;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-top: 1px solid #f1f1f1;
+}
+
+.footer button {
+  margin: 10px;
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #4d4ad8;
+  border-radius: 4px;
+  color: white;
+  font-size: 13px;
+  height: 36px;
+}
+
+.markup {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.markup .NumInputContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.numInput {
+  height: 36px;
+  padding: 5px;
+  outline: none;
+  border: 1px solid #afafaf;
+  border-radius: 4px;
+}
+
+.numInput {
+  border: 1px solid #59aff6;
+}
+
+.error {
+  opacity: 1;
+  color: #f65c4f;
+}
+
+.hideError {
+  opacity: 0;
+  transition: 0.2s ease-in;
+}
+
+.inputError {
+  border: 1px solid #f65c4f !important;
+}
+
+.inputSucces {
+  border: 1px solid #59aff6 !important;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.mappingHeader {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #afafaf;
+}
+
+.mappingHeader div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+
+.mappingHeader span {
+  font-size: 14px;
+}
+
+.mappingInput {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.mappingInput .equals {
+  font-size: 30px;
+  font-weight: 600;
+}

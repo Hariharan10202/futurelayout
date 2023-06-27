@@ -1,0 +1,92 @@
+.upperContainer {
+  border-radius: 8px;
+  font-family: Open sans;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 30px;
+  background-color: white;
+  -webkit-box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+  -moz-box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+  box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+  padding: 20px;
+  transition: 0.2s ease;
+}
+
+/* .expandedContainer {
+    max-height: 300px;
+    transition: max-height 0.25s ease-in;
+  } */
+
+.searchBtn {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.hideDetails span {
+  pointer-events: auto;
+  color: #207dc9;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.upArrow {
+  font-size: 20px;
+}
+
+.instantRate {
+  font-size: 3rem;
+  padding: 20px 240px;
+  font-family: Open sans;
+}
+
+.upperContainer .input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputField {
+  display: flex;
+
+  border: 2px solid rgb(220, 220, 226);
+  border-radius: 8px;
+}
+
+.inputField span {
+  padding: 10px 13px;
+  background-color: rgba(241, 233, 233, 0.79);
+}
+
+.inputField input {
+  font-size: 15px;
+  height: 40px;
+  width: 250px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+}
+
+.inputField input:focus {
+  outline: none;
+  border: none;
+}
+
+.input label {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.input button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

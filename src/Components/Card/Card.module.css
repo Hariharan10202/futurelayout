@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+.container {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ededed;
+  align-items: flex-start;
+  gap: 10px;
+  font-family: Open sans;
+}
+
+.cards {
+  font-family: Open sans;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.viewDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

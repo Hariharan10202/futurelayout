@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+.counter {
+  font-family: Open sans;
+  background-color: #535353;
+  width: 800px;
+  margin: auto auto 60px auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.left span:first-child {
+  font-family: Open sans;
+  background-color: #ffffff;
+  color: #6db8f7;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.left span:last-child {
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+}
+
+.right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.right span:first-child {
+  font-size: 14px;
+  color: white;
+  font-weight: 600px;
+}
+
+.counter {
+  position: fixed;
+  bottom: -70px;
+  left: 0;
+  right: 0;
+}

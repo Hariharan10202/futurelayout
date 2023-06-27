@@ -1,0 +1,278 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  max-height: 50vh;
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+.left,
+.middle,
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.reference,
+.loadDetails,
+.commodityDetails,
+.partiesInvoloved,
+.SchedulesDetails,
+.updates {
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.31);
+  border-radius: 4px;
+}
+
+.referenceHeader,
+.loadDetailsHeader,
+.commodityDetailsHeader,
+.partiesInvolovedHeader,
+.updatesHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  border-bottom: 1px solid #afafaf;
+}
+
+.referenceHeader > span,
+.loadDetailsHeader > span,
+.commodityDetailsHeader > span,
+.partiesInvolovedHeader > span,
+.SchedulesDetailsHeader > span,
+.updatesHeader > span {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.referenceContent,
+.loadDetailsContent {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  row-gap: 20px;
+  column-gap: 70px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #afafaf;
+}
+.referenceContent {
+  border-bottom: none;
+}
+
+.commodityDetailsContent {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.commodityDetailsContent > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.referenceContent > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.commodityDetailsContent > div > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.commodityDetailsContent > div > div > span:first-child {
+  font-size: 13px;
+}
+
+.referenceContent > div > span:first-child,
+.commodityDetailsContent > div > div > span:first-child {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.loadDetailsContent > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.loadDetailsInfo {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.loadDetailsInfo > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.loadDetailsInfo > div > span:first-child {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.loadDetailsInfo > div > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.loadDetailsFooter {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-around;
+}
+
+.commodityDetailsCTA {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CommodityIcon {
+  font-size: 20px;
+}
+
+.shipperBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 100%;
+}
+
+.shipperBody > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.partiesInvolovedContent {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 20px;
+}
+
+.accordionContent {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 20px;
+}
+
+.accordionContent > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordionContent > div > span:first-child {
+  font-weight: 600;
+  font-size: 13px;
+  color: #bebebe;
+}
+
+.accordionContent > div > span:last-child {
+  font-size: 13px;
+  color: #afafaf;
+}
+
+.accordionbody {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.accordionbody > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordionbody > div > span:first-child {
+  font-size: 13px;
+}
+
+.partiesinvolovedFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SchedulesDetailsHeader {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #afafaf;
+}
+
+.SchedulesDetails > div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  padding: 20px;
+}
+
+.SchedulesDetails > div:last-child > span:first-child {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.updatesContent {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.updatesContent > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.updatesContent > div > .inputColumn {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.updatesContent > div > div:last-child > span:first-child {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.updatesContent > div > div:last-child > span:last-child {
+  font-size: 11px;
+  color: #afafaf;
+}
+
+.updateDataPointIcon {
+  font-size: 20px;
+}
+
+.updateComments {
+  padding-left: 30px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

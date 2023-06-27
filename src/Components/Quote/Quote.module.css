@@ -1,0 +1,139 @@
+.upperContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ededed;
+  padding: 17px 30px;
+}
+
+.upperContainer .arrowIcon {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.upperContainerLeft {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.upperContainerLeft div:last-child {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.upperContainerLeft div:last-child span:first-child {
+  color: #49adf5;
+  font-size: 11px;
+}
+
+.upperContainerLeft div:last-child span:last-child {
+  font-size: 21px;
+  color: #333333;
+}
+
+.upperContainerRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 600;
+}
+
+.btn-icon span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #49adf5;
+  font-size: 13px;
+}
+
+.upperContainerIcon {
+  font-size: 20px;
+  color: #49adf5;
+}
+
+.lowerContainer {
+  display: flex;
+  gap: 15px;
+}
+
+.middleContainer {
+  flex: 12;
+}
+
+.middleContainer .rateContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #42a5f5;
+  height: 130px;
+}
+
+.middleContainer .rateContainer div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.middleContainer .rateContainer span:first-child {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.addbtn {
+  color: #42a5f5;
+  font-size: 20px;
+}
+
+.middleContainer .rateContainer div span {
+  font-size: 13px;
+  font-weight: 600;
+  color: #42a5f5;
+}
+
+.activityMonitor {
+  flex: 3;
+  background-color: white;
+  padding: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.activityMonitor .header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.activityMonitor .header span {
+  color: #9b9b9b;
+  font-size: 16px;
+}
+
+.activityMonitor .header .monitorIcon {
+  font-size: 25px;
+}
+
+.line {
+  width: 330px;
+  border: 2px solid #aaa8ad;
+  margin-bottom: 20px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.timeline span {
+  color: #757575;
+  font-size: 13px;
+}

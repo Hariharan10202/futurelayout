@@ -1,0 +1,200 @@
+.container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  background-color: #fff;
+  height: 100%;
+  padding-left: 70px;
+  overflow: scroll;
+}
+
+.detailHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #afafaf;
+}
+
+.detail {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 10px;
+}
+
+.detailsContainer {
+  border-bottom: 1px solid #afafaf;
+}
+
+.lastDetail {
+  border-bottom: 1px solid #afafaf;
+  padding: 20px 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.header > span:first-child {
+  font-size: 13px;
+}
+
+.header > span:last-child {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.LeadIcon {
+  height: 36px;
+  width: 36px;
+  color: #afafaf;
+}
+
+.datapoints {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.datapoints > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.datapoints > div > span:last-child {
+  font-weight: 600;
+}
+
+.datapoints > div > span:first-child {
+  color: #afafaf;
+}
+
+.tabbedNav div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 10px;
+  padding-bottom: 10px;
+}
+
+.Tab {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 75px;
+  height: 36px;
+  background-color: #ededed;
+  color: #333;
+  border-bottom: 2px solid #ededed;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+
+.activeTab {
+  background-color: #d5edff;
+  color: #42a5f5;
+  border-bottom: 2px solid #42a5f5;
+}
+
+.tabbedContent {
+  padding: 0 10px;
+}
+
+.bottomContent {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.footerSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px 10px;
+}
+
+.footerSection .buyRate,
+.sellRate {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 20px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.footerSection .buyRate span,
+.sellRate span {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.marginAction {
+  flex: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.marginAction .graphLine {
+  color: #3bb03d;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.margin {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.marginAction span:first-child {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.marginAction span:last-child {
+  font-weight: 600;
+  font-size: 13px;
+  color: #207dc9;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.marginAction span:last-child:hover {
+  transform: scale(104%);
+}
+
+.margin .arrow {
+  font-size: 13px;
+}
+
+.actionBtn {
+  display: flex;
+  gap: 20px;
+}
+
+.actionBtn button {
+  height: 36px;
+  border-radius: 4px;
+}
+
+.actionBtn button:last-child {
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+}

@@ -1,0 +1,129 @@
+.container {
+  width: fit-content;
+  background-color: white;
+  width: 600px;
+  height: 535px;
+}
+.header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #afafaf;
+}
+
+.header span {
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.closeBtn {
+  font-size: 20px;
+  font-weight: 600;
+  color: #afafaf;
+}
+
+.formControl {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 20px;
+  padding: 20px;
+  align-items: center;
+  border-bottom: 1px solid #afafaf;
+}
+
+.inputContainer {
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+  justify-content: flex-start;
+}
+
+.nameInput {
+  display: flex;
+  gap: 50px;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label {
+  color: #333333;
+  font-size: 13px;
+}
+
+.input {
+  width: 245px;
+  height: 36px;
+  font-weight: 600;
+  color: #333333;
+  font-size: 13px;
+  border-radius: 4px;
+  padding: 8px 10px;
+  border: 1px solid #afafaf;
+  outline: none;
+}
+
+.input::placeholder {
+  color: #afafaf;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.input:hover .input::placeholder {
+  color: #333333;
+}
+.icon {
+  font-size: 20px;
+  color: #a8a8a8;
+}
+
+.textarea {
+  width: 540px;
+  height: 60px;
+  border-radius: 4px;
+  resize: none;
+  outline: none;
+  border: 1px solid #afafaf;
+  padding: 8px 10px;
+}
+
+.textarea::placeholder {
+  color: #afafaf;
+  font-style: italic;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 20px;
+}
+
+.actions button {
+  width: 80px;
+  height: 36px;
+  padding: 10px 20px;
+  border: 1px solid #4a50d0;
+  border-radius: 4px;
+  outline: none;
+  font-size: 13px;
+  font-weight: 600px;
+}
+
+.actions button:first-child {
+  color: #4a50d0;
+  background-color: white;
+}
+
+.actions button:last-child {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #4a50d0;
+}

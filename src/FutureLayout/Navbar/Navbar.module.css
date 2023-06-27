@@ -1,0 +1,73 @@
+.container {
+  position: absolute;
+  z-index: 100;
+  width: 3.2%;
+  background-color: #333;
+  overflow: hidden;
+  transition: width 0.2s ease-in-out;
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding: 20px 10px;
+}
+
+.routeIcon {
+  width: 36px;
+  height: 36px;
+  font-size: 40px;
+  color: white;
+}
+
+.navbar > div > span {
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.routes:hover span,
+.routes:hover .routeIcon {
+  color: #41a5f2;
+}
+
+.Navlink {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+  color: white;
+}
+
+.Navlink:active {
+  color: #41a5f2;
+}
+
+/* .routes > span:hover .routeIcon {
+  color: blue;
+} */
+
+.Logo {
+  height: 36px;
+  width: 36px;
+  margin-bottom: 20px;
+}
+
+.Logo img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.container:hover {
+  width: 10%;
+}
+
+/* Media Query */
+
+@media only screen and (min-width: 1920px) {
+  .container {
+    width: 2.9%;
+  }
+}

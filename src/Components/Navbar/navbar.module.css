@@ -1,0 +1,21 @@
+.rms {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+button span {
+  font-size: 14px;
+}
+
+.dropdown-arrow {
+  font-size: 16px;
+}
+
+.profile {
+  cursor: pointer;
+}
+
+.pointerNone {
+  pointer-events: none;
+}

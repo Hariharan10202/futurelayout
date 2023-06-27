@@ -1,0 +1,12 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+  margin: auto;
+}
+
+.card h4 {
+  padding-bottom: 10px;
+  font-size: 16px;
+}

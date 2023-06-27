@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footer > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

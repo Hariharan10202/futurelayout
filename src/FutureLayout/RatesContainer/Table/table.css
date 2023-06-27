@@ -1,0 +1,68 @@
+* {
+  font-size: 12px;
+}
+
+.card {
+  width: 100%;
+  background-color: white;
+  -webkit-box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+  -moz-box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+  box-shadow: -1px 0px 11px 2px rgba(224, 215, 224, 1);
+}
+
+.equipment-type {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.equipment-type div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.cost {
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+}
+
+.totalCost {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.gp20,
+.gp40 {
+  width: 50px;
+  text-align: center;
+}
+
+.linerInfo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.linerInfo > span:first-child {
+  width: 36px;
+  height: 36px;
+}
+
+.linerInfo > span:first-child > img {
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linerInfo > span:last-child {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100px;
+  white-space: nowrap;
+}

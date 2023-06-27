@@ -1,0 +1,250 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  height: 100%;
+  padding-left: 50px;
+}
+
+.quoteHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.quoteHeader > span,
+.quoteDatapoint > span,
+.quotesList > span {
+  color: #333;
+  font-size: 13px;
+}
+
+.quoteHeader span:nth-child(2) {
+  font-weight: 600;
+  font-size: 21px;
+}
+
+.quoteHeader > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quotesDetails {
+  background-color: white;
+  margin: auto 20px;
+}
+
+.quoteCardspoint {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #afafaf;
+}
+
+.quoteCardspoint > div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.quoteCardspoint > div > div > span:last-child {
+  font-weight: 700;
+  color: #333;
+}
+
+.quoteCardspoint > div > div > span:first-child {
+  font-weight: 600;
+  color: #aaa9ac;
+}
+
+.quoteCardspoint > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.quotesList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.quotesList > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.quotesList > div:last-child .Cards {
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.detailsContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.details span:first-child {
+  font-weight: 500;
+  color: #afafaf;
+}
+
+.details span:last-child {
+  font-weight: 600;
+  color: #333;
+}
+
+.Cards > span {
+  color: #333;
+  font-size: 13px;
+}
+
+.newCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid #40a6f3;
+  background-color: white;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.newCard span {
+  color: #40a6f3;
+}
+
+.resultsCount {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.resultsCount > div > span:first-child {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #4a50d0;
+  font-weight: 600;
+  border: 2px solid #4a50d0;
+}
+
+.resultsCount > div > span:last-child {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+}
+
+.resultsCount > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.activityMonitor {
+  /* flex-grow: 1;
+  flex-shrink: 1; */
+  width: 344px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.37);
+  box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.37);
+}
+
+.TimelineContent {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.TimelineContent span {
+  color: #333;
+}
+
+.quoteHeader > div:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.quotesAction {
+  width: 20px;
+  height: 20px;
+  color: #40a6f3;
+}
+
+.actionsContainer > div > span {
+  cursor: pointer;
+  height: 36px;
+  /* width: 36px; */
+  border: 1px solid #40a6f3;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  padding-right: 6px;
+  overflow: hidden;
+  transition: width 0.2s ease-in-out;
+}
+
+.actionsContainer > div > span > span:last-child {
+  font-size: 13px;
+  color: #40a6f3;
+  max-width: 0;
+  opacity: 0;
+  transition: max-width 0.3s, opacity 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.actionsContainer > div:hover span > span:last-child {
+  max-width: 200px;
+  opacity: 1;
+  transition: max-width 0.3s, opacity 0.5s ease-in-out;
+}
+
+.cardLists {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: scroll;
+  height: 400px;
+}
+
+.info {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info > span {
+  font-size: 30px;
+  font-weight: 600;
+}
